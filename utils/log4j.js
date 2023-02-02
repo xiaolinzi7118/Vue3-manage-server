@@ -3,6 +3,7 @@
  */
 const log4js = require('log4js')
 
+// 日志级别 从上到下 例如级别定在info 则包括info后的warn error fatal信息都会被打印出来
 const levels = {
     'trace': log4js.levels.TRACE,
     'debug': log4js.levels.DEBUG,
@@ -13,6 +14,7 @@ const levels = {
 }
 
 log4js.configure({
+    // 追加器
     appenders: {
         console: { type: 'console' },
         info: {
@@ -26,6 +28,7 @@ log4js.configure({
             alwaysIncludePattern: true// 设置文件名称为 filename + pattern
         }
     },
+    // 类别
     categories: {
         default: { appenders: ['console'], level: 'debug' },
         info: {

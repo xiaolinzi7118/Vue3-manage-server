@@ -17,6 +17,7 @@ module.exports = {
      * @param {number} pageSize 
      */
     pager({ pageNum = 1, pageSize = 10 }) {
+        // 强制转换成number
         pageNum *= 1;
         pageSize *= 1;
         const skipIndex = (pageNum - 1) * pageSize;

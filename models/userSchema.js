@@ -28,5 +28,5 @@ const userSchema = mongoose.Schema({
     remark: String
 })
 
-module.exports = mongoose.model("users", userSchema, "users")
-//users 指定的是userSchema这个对象，关联到数据库的集合名称为users
+module.exports = mongoose.model("user", userSchema, "users")
+//user模型(用法可查看mongoose的API) 指定的是userSchema这个对象，关联到数据库的集合名称为users
