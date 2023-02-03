@@ -12,6 +12,7 @@ const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
 const log4js = require('./utils/log4j')
 const users = require('./routes/users')
+const menus = require('./routes/menus')
 const router = require('koa-router')()
 const jwt = require('jsonwebtoken')
 const koajwt = require('koa-jwt')
@@ -63,6 +64,7 @@ app.use(koajwt({ secret: 'imooc' }).unless({
 router.prefix('/api')
 //二级
 router.use(users.routes(), users.allowedMethods())
+router.use(menus.routes(), menus.allowedMethods())
 
 //全局
 app.use(router.routes(), router.allowedMethods())

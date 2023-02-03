@@ -24,7 +24,7 @@ router.post('/login', async (ctx) => {
       userPwd: md5(userPwd)
     }, 'userId userName userEmail state role deptId roleList')
 
-    // res下的_doc才是字段的信息
+    // res下的_doc才是字段的信息 处理字段信息时需取res下_doc里的 而直接return res给前端(是因为接口只会返回model模型定义下的字段) 
     const data = res._doc;
     const token = jwt.sign({
       data: data
