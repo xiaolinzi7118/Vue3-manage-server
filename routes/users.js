@@ -70,6 +70,16 @@ router.get('/list', async (ctx) => {
   }
 })
 
+// 获取全量用户列表
+router.get('/all/list', async (ctx) => {
+  try {
+    const list = await User.find({}, "userId userName userEmail")
+    ctx.body = util.success(list)
+  } catch (error) {
+    ctx.body = util.fail(error.stack)
+  }
+})
+
 // 用户删除/批量删除
 router.post('/delete', async (ctx) => {
   // 待删除的用户Id数组 采用update 软删除 更新状态
