@@ -1,5 +1,7 @@
 [{
-    "_id": "6069beb8b306e7f18dd72efc",
+    "_id": {
+        "$oid": "6069beb8b306e7f18dd72efc"
+    },
     "parentId": [
         null
     ],
@@ -8,12 +10,14 @@
     "menuType": 1,
     "menuState": 1,
     "menuName": "系统管理",
-    "icon": "el-icon-setting",
+    "icon": "Setting",
     "path": "/system",
     "__v": 0
 },
 {
-    "_id": "6069bec6b306e7f18dd72efd",
+    "_id": {
+        "$oid": "6069bec6b306e7f18dd72efd"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc"
     ],
@@ -27,7 +31,9 @@
     "component": "User"
 },
 {
-    "_id": "6069bedfb306e7f18dd72efe",
+    "_id": {
+        "$oid": "6069bedfb306e7f18dd72efe"
+    },
     "parentId": [
         null
     ],
@@ -36,12 +42,14 @@
     "menuType": 1,
     "menuState": 1,
     "menuName": "审批管理",
-    "icon": "el-icon-s-promotion",
+    "icon": "Setting",
     "path": "/audit",
     "__v": 0
 },
 {
-    "_id": "6069c3f7341306f73b75fbfe",
+    "_id": {
+        "$oid": "6069c3f7341306f73b75fbfe"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "6069bec6b306e7f18dd72efd"
@@ -55,7 +63,9 @@
     "__v": 0
 },
 {
-    "_id": "6083d756c30e1188761493f2",
+    "_id": {
+        "$oid": "6083d756c30e1188761493f2"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc"
     ],
@@ -69,7 +79,9 @@
     "component": "Menu"
 },
 {
-    "_id": "6083d76bc30e1188761493f3",
+    "_id": {
+        "$oid": "6083d76bc30e1188761493f3"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc"
     ],
@@ -83,7 +95,9 @@
     "component": "Role"
 },
 {
-    "_id": "6083f63bc30e1188761493f4",
+    "_id": {
+        "$oid": "6083f63bc30e1188761493f4"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "6083d756c30e1188761493f2"
@@ -97,7 +111,9 @@
     "__v": 0
 },
 {
-    "_id": "60978d6a3c0c8738d016ca5f",
+    "_id": {
+        "$oid": "60978d6a3c0c8738d016ca5f"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "6083d76bc30e1188761493f3"
@@ -111,7 +127,9 @@
     "__v": 0
 },
 {
-    "_id": "60979e4d3c0c8738d016ca60",
+    "_id": {
+        "$oid": "60979e4d3c0c8738d016ca60"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc"
     ],
@@ -125,7 +143,9 @@
     "component": "Dept"
 },
 {
-    "_id": "60979e5a3c0c8738d016ca61",
+    "_id": {
+        "$oid": "60979e5a3c0c8738d016ca61"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "60979e4d3c0c8738d016ca60"
@@ -139,7 +159,9 @@
     "__v": 0
 },
 {
-    "_id": "60a0e80d92ea01921486ecac",
+    "_id": {
+        "$oid": "60a0e80d92ea01921486ecac"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "6069bec6b306e7f18dd72efd"
@@ -153,7 +175,9 @@
     "__v": 0
 },
 {
-    "_id": "60a0e81c92ea01921486ecad",
+    "_id": {
+        "$oid": "60a0e81c92ea01921486ecad"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "6069bec6b306e7f18dd72efd"
@@ -167,7 +191,9 @@
     "__v": 0
 },
 {
-    "_id": "60a0e82592ea01921486ecae",
+    "_id": {
+        "$oid": "60a0e82592ea01921486ecae"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "6069bec6b306e7f18dd72efd"
@@ -181,7 +207,9 @@
     "__v": 0
 },
 {
-    "_id": "60a0e83392ea01921486ecaf",
+    "_id": {
+        "$oid": "60a0e83392ea01921486ecaf"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "6069bec6b306e7f18dd72efd"
@@ -195,7 +223,9 @@
     "__v": 0
 },
 {
-    "_id": "60a0e84c92ea01921486ecb0",
+    "_id": {
+        "$oid": "60a0e84c92ea01921486ecb0"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "6083d756c30e1188761493f2"
@@ -209,7 +239,9 @@
     "__v": 0
 },
 {
-    "_id": "60a0e85392ea01921486ecb1",
+    "_id": {
+        "$oid": "60a0e85392ea01921486ecb1"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "6083d756c30e1188761493f2"
@@ -223,7 +255,9 @@
     "__v": 0
 },
 {
-    "_id": "60a0e85c92ea01921486ecb2",
+    "_id": {
+        "$oid": "60a0e85c92ea01921486ecb2"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "6083d756c30e1188761493f2"
@@ -237,7 +271,9 @@
     "__v": 0
 },
 {
-    "_id": "60a0e87392ea01921486ecb3",
+    "_id": {
+        "$oid": "60a0e87392ea01921486ecb3"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "6083d76bc30e1188761493f3"
@@ -251,7 +287,9 @@
     "__v": 0
 },
 {
-    "_id": "60a0e87b92ea01921486ecb4",
+    "_id": {
+        "$oid": "60a0e87b92ea01921486ecb4"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "6083d76bc30e1188761493f3"
@@ -265,7 +303,9 @@
     "__v": 0
 },
 {
-    "_id": "60a0e88792ea01921486ecb5",
+    "_id": {
+        "$oid": "60a0e88792ea01921486ecb5"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "6083d76bc30e1188761493f3"
@@ -279,7 +319,9 @@
     "__v": 0
 },
 {
-    "_id": "60a0e89192ea01921486ecb6",
+    "_id": {
+        "$oid": "60a0e89192ea01921486ecb6"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "6083d76bc30e1188761493f3"
@@ -293,7 +335,9 @@
     "__v": 0
 },
 {
-    "_id": "60a0e8b092ea01921486ecb7",
+    "_id": {
+        "$oid": "60a0e8b092ea01921486ecb7"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "60979e4d3c0c8738d016ca60"
@@ -307,7 +351,9 @@
     "__v": 0
 },
 {
-    "_id": "60a0e8b892ea01921486ecb8",
+    "_id": {
+        "$oid": "60a0e8b892ea01921486ecb8"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "60979e4d3c0c8738d016ca60"
@@ -321,7 +367,9 @@
     "__v": 0
 },
 {
-    "_id": "60a0e8c392ea01921486ecb9",
+    "_id": {
+        "$oid": "60a0e8c392ea01921486ecb9"
+    },
     "parentId": [ 
         "6069beb8b306e7f18dd72efc", 
         "60979e4d3c0c8738d016ca60"
@@ -335,7 +383,9 @@
     "__v": 0
 },
 {
-    "_id": "60aa14a5e6b0fa3dc8fb5024",
+    "_id": {
+        "$oid": "60aa14a5e6b0fa3dc8fb5024"
+    },
     "parentId": [ 
         "6069bedfb306e7f18dd72efe"
     ],
@@ -349,7 +399,9 @@
     "component": "Leave"
 },
 {
-    "_id": "60aa14b6e6b0fa3dc8fb5025",
+    "_id": {
+        "$oid": "60aa14b6e6b0fa3dc8fb5025"
+    },
     "parentId": [ 
         "6069bedfb306e7f18dd72efe"
     ],
@@ -363,7 +415,9 @@
     "component": "Approve"
 },
 {
-    "_id": "60aa1675a19f033ebc1c7f92",
+    "_id": {
+        "$oid": "60aa1675a19f033ebc1c7f92"
+    },
     "parentId": [ 
         "6069bedfb306e7f18dd72efe", 
         "60aa14a5e6b0fa3dc8fb5024"
@@ -377,7 +431,9 @@
     "__v": 0
 },
 {
-    "_id": "60b2164931165fbf56a7d674",
+    "_id": {
+        "$oid": "60b2164931165fbf56a7d674"
+    },
     "parentId": [ 
         "6069bedfb306e7f18dd72efe", 
         "60aa14b6e6b0fa3dc8fb5025"
@@ -391,7 +447,9 @@
     "menuCode": "approve-query"
 },
 {
-    "_id": "60b2165f31165fbf56a7d675",
+    "_id": {
+        "$oid": "60b2165f31165fbf56a7d675"
+    },
     "parentId": [ 
         "6069bedfb306e7f18dd72efe", 
         "60aa14b6e6b0fa3dc8fb5025"
