@@ -6,5 +6,3 @@
 ---
 
 连接MongoDB数据库用的模拟JSON文件 见mongoJson文件 导入即可
-
-![image-20230208160404852](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230208160404852.png)
