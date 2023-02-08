@@ -105,7 +105,7 @@ router.post('/delete', async (ctx) => {
 
 // 用户新增/编辑
 router.post('/operate', async (ctx) => {
-  const { userId, userName, userEmail, mobile, job, state, roleList, deptId, action} = ctx.request.body;
+  const { userId, userName, userEmail, mobile, job, state, role, roleList, deptId, action} = ctx.request.body;
   if (action === 'add') {
     // 新增
     if (!userName || !userEmail || !deptId) {
@@ -126,7 +126,7 @@ router.post('/operate', async (ctx) => {
           userName,
           userPwd: md5('123456'),
           userEmail,
-          role: 1, //默认普通用户
+          role, //默认普通用户
           roleList,
           job,
           state,
@@ -147,7 +147,7 @@ router.post('/operate', async (ctx) => {
     }
     // 根据userId查找并且更新数据
     try {
-      await User.findOneAndUpdate({userId}, {mobile, job, state, roleList, deptId})
+      await User.findOneAndUpdate({userId}, {mobile, job, state, role, roleList, deptId})
       ctx.body = util.success({}, '更新成功')
     } catch (error) {
       ctx.body = util.fail(error.stack, '更新失败')
