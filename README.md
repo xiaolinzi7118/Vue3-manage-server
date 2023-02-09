@@ -17,7 +17,7 @@ git clone https://github.com/xiaolinzi7118/Vue3-manage-server.git
 - 启动mongoDB服务以及使用mongoDB compass可视化界面操作数据库（见/doc下文档步骤）
 - 建立数据库以及相关集合 导入初始JSON数据（见后端代码库mongoJson文件）
 
-![导入数据](E:/Projects/1Vue3-managerSysterm/doc/images/1.png)
+![导入数据](./public/images/1.png)
 
 - 启动前后端项目
 
