@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "63e1bc1fd102374c08cd27de"
+  },
+  "parentId": [
+    null
+  ],
+  "updateTime": {
+    "$date": {
+      "$numberLong": "1675738301436"
+    }
+  },
+  "createTime": {
+    "$date": {
+      "$numberLong": "1675736061124"
+    }
+  },
+  "deptName": "前端部门",
+  "userId": "1000008",
+  "userName": "daQiang",
+  "userEmail": "daQiang@imooc.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e1bc29d102374c08cd27e1"
+  },
+  "parentId": [
+    null
+  ],
+  "updateTime": {
+    "$date": {
+      "$numberLong": "1675738308384"
+    }
+  },
+  "createTime": {
+    "$date": {
+      "$numberLong": "1675736061124"
+    }
+  },
+  "deptName": "人事部门",
+  "userId": "1000009",
+  "userName": "hr",
+  "userEmail": "hr@imooc.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e1bc3fd102374c08cd27e4"
+  },
+  "parentId": [
+    null
+  ],
+  "updateTime": {
+    "$date": {
+      "$numberLong": "1675738314099"
+    }
+  },
+  "createTime": {
+    "$date": {
+      "$numberLong": "1675736061124"
+    }
+  },
+  "deptName": "财务部门",
+  "userId": "1000010",
+  "userName": "money",
+  "userEmail": "money@imooc.com",
+  "__v": 0
+}]

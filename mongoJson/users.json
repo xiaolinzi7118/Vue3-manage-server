@@ -1,0 +1,141 @@
+[{
+  "_id": {
+    "$oid": "63db6878f6b10f19a89391fc"
+  },
+  "deptId": [
+    "63e1bc1fd102374c08cd27de"
+  ],
+  "state": 1,
+  "role": 1,
+  "roleList": [
+    "609781b45ccd183084f8ea3d"
+  ],
+  "createTime": {
+    "$date": {
+      "$numberLong": "1675323304033"
+    }
+  },
+  "lastLoginTime": {
+    "$date": {
+      "$numberLong": "1675323304033"
+    }
+  },
+  "userId": 1000006,
+  "userName": "tom",
+  "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+  "userEmail": "tom@imooc.com",
+  "__v": 0,
+  "job": null,
+  "mobile": null
+},{
+  "_id": {
+    "$oid": "63db6c14becd3a5f20c5874a"
+  },
+  "deptId": [
+    "60167059c9027b7d2c520a61",
+    "6016728fc6a4417f2d27506e"
+  ],
+  "state": 1,
+  "role": 0,
+  "roleList": [
+    "609781c15ccd183084f8ea3e"
+  ],
+  "createTime": {
+    "$date": {
+      "$numberLong": "1675323592149"
+    }
+  },
+  "lastLoginTime": {
+    "$date": {
+      "$numberLong": "1675323592149"
+    }
+  },
+  "userId": 1000007,
+  "userName": "admin",
+  "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+  "userEmail": "admin@imooc.com",
+  "__v": 0,
+  "job": null,
+  "mobile": null
+},{
+  "_id": {
+    "$oid": "63e1bc8ad102374c08cd27f0"
+  },
+  "deptId": [
+    "63e1bc1fd102374c08cd27de"
+  ],
+  "state": 1,
+  "role": 1,
+  "roleList": [
+    "609781d85ccd183084f8ea42"
+  ],
+  "createTime": {
+    "$date": {
+      "$numberLong": "1675736061092"
+    }
+  },
+  "lastLoginTime": {
+    "$date": {
+      "$numberLong": "1675736061092"
+    }
+  },
+  "userId": 1000008,
+  "userName": "daQiang",
+  "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+  "userEmail": "daQiang@imooc.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e1bc9ed102374c08cd27f6"
+  },
+  "deptId": [
+    "63e1bc29d102374c08cd27e1"
+  ],
+  "state": 1,
+  "role": 1,
+  "roleList": [
+    "609781d85ccd183084f8ea42"
+  ],
+  "createTime": {
+    "$date": {
+      "$numberLong": "1675736061092"
+    }
+  },
+  "lastLoginTime": {
+    "$date": {
+      "$numberLong": "1675736061092"
+    }
+  },
+  "userId": 1000009,
+  "userName": "hr",
+  "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+  "userEmail": "hr@imooc.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e1bcb3d102374c08cd27fc"
+  },
+  "deptId": [
+    "63e1bc3fd102374c08cd27e4"
+  ],
+  "state": 1,
+  "role": 1,
+  "roleList": [
+    "609781d85ccd183084f8ea42"
+  ],
+  "createTime": {
+    "$date": {
+      "$numberLong": "1675736061092"
+    }
+  },
+  "lastLoginTime": {
+    "$date": {
+      "$numberLong": "1675736061092"
+    }
+  },
+  "userId": 1000010,
+  "userName": "money",
+  "userPwd": "e10adc3949ba59abbe56e057f20f883e",
+  "userEmail": "money@imooc.com",
+  "__v": 0
+}]

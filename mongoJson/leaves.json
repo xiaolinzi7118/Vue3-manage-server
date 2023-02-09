@@ -1,0 +1,323 @@
+[{
+  "_id": {
+    "$oid": "63e1bcfad102374c08cd2814"
+  },
+  "applyState": 4,
+  "applyType": 1,
+  "startTime": {
+    "$date": {
+      "$numberLong": "1675612800000"
+    }
+  },
+  "endTime": {
+    "$date": {
+      "$numberLong": "1675785600000"
+    }
+  },
+  "leaveTime": "3天",
+  "reasons": "回家测试",
+  "orderNo": "XJ202302070",
+  "auditUsers": "daQiang,hr,money",
+  "curAuditUserName": "money",
+  "auditFlows": [
+    {
+      "_id": {
+        "$oid": "63e1bcfad102374c08cd2815"
+      },
+      "userId": "1000008",
+      "userName": "daQiang",
+      "userEmail": "daQiang@imooc.com"
+    },
+    {
+      "_id": {
+        "$oid": "63e1bcfad102374c08cd2816"
+      },
+      "userId": "1000009",
+      "userName": "hr",
+      "userEmail": "hr@imooc.com"
+    },
+    {
+      "_id": {
+        "$oid": "63e1bcfad102374c08cd2817"
+      },
+      "userId": "1000010",
+      "userName": "money",
+      "userEmail": "money@imooc.com"
+    }
+  ],
+  "auditLogs": [
+    {
+      "_id": {
+        "$oid": "63e1bd18d102374c08cd2821"
+      },
+      "userId": "1000008",
+      "userName": "daQiang",
+      "createTime": {
+        "$date": {
+          "$numberLong": "1675738392608"
+        }
+      },
+      "remark": "通过",
+      "action": "审核通过"
+    },
+    {
+      "_id": {
+        "$oid": "63e1bd2fd102374c08cd282e"
+      },
+      "userId": "1000009",
+      "userName": "hr",
+      "createTime": {
+        "$date": {
+          "$numberLong": "1675738415790"
+        }
+      },
+      "remark": "通过",
+      "action": "审核通过"
+    },
+    {
+      "_id": {
+        "$oid": "63e1bd40d102374c08cd283c"
+      },
+      "userId": "1000010",
+      "userName": "money",
+      "createTime": {
+        "$date": {
+          "$numberLong": "1675738432609"
+        }
+      },
+      "remark": "111",
+      "action": "审核通过"
+    }
+  ],
+  "applyUser": {
+    "userId": "1000006",
+    "userName": "tom",
+    "userEmail": "tom@imooc.com"
+  },
+  "createTime": {
+    "$date": {
+      "$numberLong": "1675738362148"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e1bd72d102374c08cd284d"
+  },
+  "applyState": 5,
+  "applyType": 1,
+  "startTime": {
+    "$date": {
+      "$numberLong": "1675872000000"
+    }
+  },
+  "endTime": {
+    "$date": {
+      "$numberLong": "1675958400000"
+    }
+  },
+  "leaveTime": "2天",
+  "reasons": "测试作废",
+  "orderNo": "XJ202302071",
+  "auditUsers": "daQiang,hr,money",
+  "curAuditUserName": "daQiang",
+  "auditFlows": [
+    {
+      "_id": {
+        "$oid": "63e1bd72d102374c08cd284e"
+      },
+      "userId": "1000008",
+      "userName": "daQiang",
+      "userEmail": "daQiang@imooc.com"
+    },
+    {
+      "_id": {
+        "$oid": "63e1bd72d102374c08cd284f"
+      },
+      "userId": "1000009",
+      "userName": "hr",
+      "userEmail": "hr@imooc.com"
+    },
+    {
+      "_id": {
+        "$oid": "63e1bd72d102374c08cd2850"
+      },
+      "userId": "1000010",
+      "userName": "money",
+      "userEmail": "money@imooc.com"
+    }
+  ],
+  "auditLogs": [],
+  "applyUser": {
+    "userId": "1000006",
+    "userName": "tom",
+    "userEmail": "tom@imooc.com"
+  },
+  "createTime": {
+    "$date": {
+      "$numberLong": "1675738482050"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e1bda0d102374c08cd2867"
+  },
+  "applyState": 1,
+  "applyType": 1,
+  "startTime": {
+    "$date": {
+      "$numberLong": "1675699200000"
+    }
+  },
+  "endTime": {
+    "$date": {
+      "$numberLong": "1675872000000"
+    }
+  },
+  "leaveTime": "3天",
+  "reasons": "111",
+  "orderNo": "XJ202302072",
+  "auditUsers": "daQiang,hr,money",
+  "curAuditUserName": "daQiang",
+  "auditFlows": [
+    {
+      "_id": {
+        "$oid": "63e1bda0d102374c08cd2868"
+      },
+      "userId": "1000008",
+      "userName": "daQiang",
+      "userEmail": "daQiang@imooc.com"
+    },
+    {
+      "_id": {
+        "$oid": "63e1bda0d102374c08cd2869"
+      },
+      "userId": "1000009",
+      "userName": "hr",
+      "userEmail": "hr@imooc.com"
+    },
+    {
+      "_id": {
+        "$oid": "63e1bda0d102374c08cd286a"
+      },
+      "userId": "1000010",
+      "userName": "money",
+      "userEmail": "money@imooc.com"
+    }
+  ],
+  "auditLogs": [],
+  "applyUser": {
+    "userId": "1000008",
+    "userName": "daQiang",
+    "userEmail": "daQiang@imooc.com"
+  },
+  "createTime": {
+    "$date": {
+      "$numberLong": "1675738528841"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e1bdc0d102374c08cd2878"
+  },
+  "applyState": 3,
+  "applyType": 1,
+  "startTime": {
+    "$date": {
+      "$numberLong": "1675612800000"
+    }
+  },
+  "endTime": {
+    "$date": {
+      "$numberLong": "1675785600000"
+    }
+  },
+  "leaveTime": "3天",
+  "reasons": "hr",
+  "orderNo": "XJ202302073",
+  "auditUsers": "hr,hr,money",
+  "curAuditUserName": "money",
+  "auditFlows": [
+    {
+      "_id": {
+        "$oid": "63e1bdc0d102374c08cd2879"
+      },
+      "userId": "1000009",
+      "userName": "hr",
+      "userEmail": "hr@imooc.com"
+    },
+    {
+      "_id": {
+        "$oid": "63e1bdc0d102374c08cd287a"
+      },
+      "userId": "1000009",
+      "userName": "hr",
+      "userEmail": "hr@imooc.com"
+    },
+    {
+      "_id": {
+        "$oid": "63e1bdc0d102374c08cd287b"
+      },
+      "userId": "1000010",
+      "userName": "money",
+      "userEmail": "money@imooc.com"
+    }
+  ],
+  "auditLogs": [
+    {
+      "_id": {
+        "$oid": "63e1bdc9d102374c08cd2882"
+      },
+      "userId": "1000009",
+      "userName": "hr",
+      "createTime": {
+        "$date": {
+          "$numberLong": "1675738569074"
+        }
+      },
+      "remark": "111",
+      "action": "审核通过"
+    },
+    {
+      "_id": {
+        "$oid": "63e1bdcdd102374c08cd2888"
+      },
+      "userId": "1000009",
+      "userName": "hr",
+      "createTime": {
+        "$date": {
+          "$numberLong": "1675738573170"
+        }
+      },
+      "remark": "111",
+      "action": "审核通过"
+    },
+    {
+      "_id": {
+        "$oid": "63e1f39fd102374c08cd28f6"
+      },
+      "userId": "1000010",
+      "userName": "money",
+      "createTime": {
+        "$date": {
+          "$numberLong": "1675752351963"
+        }
+      },
+      "remark": "111",
+      "action": "审核拒绝"
+    }
+  ],
+  "applyUser": {
+    "userId": "1000009",
+    "userName": "hr",
+    "userEmail": "hr@imooc.com"
+  },
+  "createTime": {
+    "$date": {
+      "$numberLong": "1675738560452"
+    }
+  },
+  "__v": 0
+}]
